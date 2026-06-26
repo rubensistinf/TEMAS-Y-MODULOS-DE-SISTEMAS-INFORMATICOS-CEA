@@ -147,6 +147,7 @@ select:disabled {
     display: flex;
     flex-direction: row !important; 
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 15px;
     margin-top: 25px;
     width: 100%;
@@ -189,6 +190,28 @@ select:disabled {
     background-color: var(--chatgpt-green-hover);
     transform: translateY(-3px);
     box-shadow: 0 12px 25px rgba(16, 163, 127, 0.4);
+}
+
+.btn-image-gemini {
+    background-color: #8b5cf6;
+    box-shadow: 0 8px 20px rgba(139, 92, 246, 0.3);
+}
+
+.btn-image-gemini:hover {
+    background-color: #7c3aed;
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(139, 92, 246, 0.4);
+}
+
+.btn-image-chatgpt {
+    background-color: #d946ef;
+    box-shadow: 0 8px 20px rgba(217, 70, 239, 0.3);
+}
+
+.btn-image-chatgpt:hover {
+    background-color: #c026d3;
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(217, 70, 239, 0.4);
 }
 
 .btn-generate:active {
